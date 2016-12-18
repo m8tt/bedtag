@@ -1,0 +1,113 @@
+html, body, .container-fluid, .row {
+    height: 100%;
+}
+
+body {
+	background: #F3F3F4;
+}
+
+.sidebar {
+	background-color: #2F4050;
+	width:240px;
+}
+
+.sidebar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 1000;
+	display: block;
+	background-color: #2F4050;
+}
+
+.sidebar .logo {
+	height: 60px;
+}
+
+.sidebar ul {
+	list-style-type: none;
+	margin:0px;
+	padding: 0px;
+}
+
+.sidebar ul li a {
+	line-height: 42px;
+	display: block;
+	color:#A6B1C1;
+	text-indent: 20px;
+	text-decoration: none;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active {
+	background: #293846;
+	color:#fff;
+}
+
+.content {
+	margin-left: 240px;
+}
+
+.top-bar {
+	background-color:rgb(243,243,244);
+	height:48px;
+	/* Firefox v3.5+ */
+	-moz-box-shadow:inset 0px -1px 0px rgb(231,234,236);
+	/* Safari v3.0+ and by Chrome v0.2+ */
+	-webkit-box-shadow:inset 0px -1px 0px rgb(231,234,236);
+	/* Firefox v4.0+ , Safari v5.1+ , Chrome v10.0+, IE v10+ and by Opera v10.5+ */
+	box-shadow:inset 0px -1px 0px rgb(231,234,236);
+}
+
+.jumbotron {
+	background-color:rgb(255,255,255);
+	height:241px;
+	padding: 0px;
+}
+
+.jumbotron .jumbotron-notices > h1 {
+	font-size: 22px;
+	color:#5A6A83;
+}
+
+.jumbotron .jumbotron-notices > h3 {
+	font-size: 14px;
+	font-weight: normal;
+	color:#8D9BB0;
+}
+
+.jumbotron .jumbotron-notices > ul {
+	list-style-type: none;
+	margin:0px;
+	padding: 0px;
+}
+
+.jumbotron .jumbotron-notices > ul > li {
+	background-color:rgb(243,243,244);
+	height:42px;
+	line-height: 42px;
+	/* Firefox v1.0+ */
+	-moz-border-radius:6px ;
+	/* Safari v3.0+ and by Chrome v0.2+ */
+	-webkit-border-radius:6px ;
+	/* Firefox v4.0+ , Safari v5.0+ , Chrome v4.0+ , Opera v10.5+  and by IE v9.0+ */
+	border-radius:6px ;
+	padding:0 15px;
+	color:#8D9BB0;
+	margin-bottom: 5px;
+}
+
+.jumbotron .jumbotron-notices > ul > li .name {
+	float: left;
+	font-size: 15px;
+}
+
+.jumbotron .jumbotron-notices > ul > li .name a {
+	color:#8D9BB0;
+}
+
+.jumbotron .jumbotron-notices > ul > li .room, .jumbotron .jumbotron-notices > ul > li .price {
+	float: right;
+	margin-left: 10px;
+	font-size: 14px;
+}
